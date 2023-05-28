@@ -6,6 +6,7 @@ class Program
     {
         try
         {
+		// comment in code
             Action printDelegate = () =>
             {
                 Console.WriteLine("Hello, World!");
@@ -13,6 +14,7 @@ class Program
 
             printDelegate();
         }
+		//another comment
         catch
         {
             Console.WriteLine("Exception occured");
