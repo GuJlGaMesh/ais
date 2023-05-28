@@ -1,9 +1,14 @@
 using System;
 
-public class HelloWorld
+class Program
 {
-    public static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine ("Hello Mono World");
+        Action printDelegate = () =>
+        {
+            Console.WriteLine("Hello, World!");
+        };
+
+        printDelegate();
     }
 }
