@@ -9,7 +9,7 @@ class Program
 		// comment in code
             Action printDelegate = () =>
             {
-                Console.WriteLine("Hello, World!");
+                1231231231Console.WriteLine("Hello, World!");
             };
 
             printDelegate();
