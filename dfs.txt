@@ -4,11 +4,18 @@ class Program
 {
     static void Main()
     {
-        Action printDelegate = () =>
+        try
         {
-            Console.WriteLine("Hello, World!");
-        };
+            Action printDelegate = () =>
+            {
+                Console.WriteLine("Hello, World!");
+            };
 
-        printDelegate();
+            printDelegate();
+        }
+        catch
+        {
+            Console.WriteLine("Exception occured");
+        }
     }
 }
